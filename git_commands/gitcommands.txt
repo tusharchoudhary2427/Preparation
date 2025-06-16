@@ -1,0 +1,6 @@
+1. To upload username -> git config --global user.name "     ",
+2. To upload email -> git config --global user.email "     ",
+3. To clone -> git clone [link],
+4. To check status -> git status,
+5. To add -> git add [file],
+
