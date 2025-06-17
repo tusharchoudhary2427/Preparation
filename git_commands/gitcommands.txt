@@ -1,9 +1,27 @@
+
+#git basic commands
+
 1. To upload username -> git config --global user.name "     ",
 2. To upload email -> git config --global user.email "     ",
 3. To clone -> git clone [link],
 4. To check status -> git status,
 5. To add -> git add [file] and to add all -> git add . ,
 6. To commit -> git commit -m " ",
-7. To push -> git push -u origin main ,
-8 to check status -> git status ,
+7. To push -> git push -u origin main,
+8. to check status -> git status ,
+9. to create a new git repo -> git init,
+10. to add a git remote(github repo) -> git remote add origin <link>,
+11. to verify git remote -> git remote -v,
+
+#branches
+
+12. to check git branch -> git branch -a ,
+13. to rename branch -> git branch -M main,
+14. to make a new branch -> git branch  [branch name],
+15. to delete branch -> git branch -d [branch name],
+16. to merge branch -> git merge [branch name],
+17. to navigate to a branch -> git checkout [branch name],
+18. to compare commits, branches, files & more -> git diff [branch name],
+19. to git merge -> git merge [branch name],
+
 
