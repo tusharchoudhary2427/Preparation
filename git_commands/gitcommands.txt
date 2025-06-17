@@ -5,4 +5,5 @@
 5. To add -> git add [file] and to add all -> git add . ,
 6. To commit -> git commit -m " ",
 7. To push -> git push -u origin main ,
+8 to check status -> git status ,
 
