@@ -9,6 +9,7 @@ name = 'Tushar'
 nameshort = name[2:5] # positive indexing
 print(nameshort)
 
+
 name = 'Justin'
 nameshort = name[-5:-2] # negative indexing
 print(nameshort)
@@ -53,7 +54,3 @@ print(txt)
 
 txt = 'tried cooking Maggi like \'meth\' ' #  is used for single quotes
 print(txt)
-
-
-
-
