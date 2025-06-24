@@ -64,3 +64,6 @@ s2 = {44, 45, 18 , 22}
 print(s1.union(s2)) # Returns a new set with elements from both sets
 
 print(s1.intersection(s2)) # Returns a new set with elements common to both sets
+
+print(s1.difference(s2)) # Returns a new set with elements in s1 but not in s2
+
