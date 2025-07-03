@@ -43,7 +43,7 @@ print(b)
 
 # type function
 a = 10
-print(type(a)) # =>
+print(type(a)) # => print the type of a
 
 x = 31.2
 print(type(x)) 
