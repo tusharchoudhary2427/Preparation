@@ -1,6 +1,7 @@
 # Loops make it easy for a programmer to tell the computer which set of instructions to repeat and how! The computer will repeat the instructions as long as the condition is true.
 
-
+#for i in range(1, 1000):
+ #   print(i)
 
 '''While loops''' # While loops are similar to for loops, but they repeat the instructions as long as the condition is true.
 
