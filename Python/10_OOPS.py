@@ -54,7 +54,7 @@ Rahul.getinfo()
 
 # Constructor -> A constructor is a special method that is called when an object is created. It is used to initialize the instance attributes of the class. It is defined using the __init__ method.
 
-class employee:
+class employee: 
     language = "Python"
     salary = 700000
 
