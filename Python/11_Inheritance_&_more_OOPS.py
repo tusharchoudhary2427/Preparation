@@ -73,7 +73,7 @@ class coder(programmer):
     def __init__(self):
         super().__init__()  # This will call the constructor of Programmer class
         print("Constructor of Coder")
-    c = 3
+    c = 3 
 
 o = coder()  
 
@@ -92,7 +92,27 @@ e.show()  # This will call the show method of Employee class
 
 '''@property -> It is used to create a property of a class. It is used to access the instance attribute as a property. '''
 
+class Employee:
+    a = 1
+    
+    @classmethod
+    def show(cls):
+        print(f"The class attribute is {cls.a}")
 
+    @property
+    def name(self):
+        return f"{self.fname} {self.lname}"
+    
+    @name.setter
+    def name(self, value):
+        self.fname = value.split(" ")[0]
+        self.lname = value.split(" ")[1]
+    
+e = Employee()
+e.name = "Tushar Choudhary"
+print(e.fname, e.lname) 
+
+# In the above code we have used Abstraction and encapsulation method, as we uses abstraction to hide the implementation details of the class  from the user and encapsulation that we have collected a whole bunch of working components into a single unit, which is the class.
 
 '''Operator Overloading -> It is a way to define the behavior of operators for user-defined classes. It allows us to use operators like +, -, *, /, etc. with user-defined classes.'''
 
