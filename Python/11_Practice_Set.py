@@ -84,7 +84,7 @@ class Vector:
         self.y = y
         self.z = z
 
-    def __add__(self, other):
+    def __add__(self, other): # here other is the second vector object that is v2 or v3, and this method will return a new Vector object that is the sum of the two vectors
         result = Vector(self.x + other.x, self.y + other.y, self.z + other.z)
         return result
     
@@ -104,3 +104,22 @@ print(v1 * v2)  # This will call the __mul__ method and print the result of dot 
 
 print(v1 + v3) # This will call the __add__ method and print the result of addition
 print(v1 * v3) # This will call the __mul__ method and print the result of dot product
+
+# Ques 6 -> Write __str__() method to print the vector as follows: 7i + 8j +10k, Override the __len__() method on vector.
+
+class VectorWithStr:
+    def __init__(self, i, j, k):
+        self.i = i
+        self.j = j
+        self.k = k
+
+    def __str__(self):
+        return f"{self.i}i + {self.j}j + {self.k}k"
+    
+    def __len__(self):
+        return 3        
+    
+v = VectorWithStr(7, 8, 10)
+print(v)  
+print(len(v)) 
+
