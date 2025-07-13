@@ -86,6 +86,37 @@ else:
     print(f"The result of {a} divided by {b} is {a / b}")
 
 
+# TRY WITH ELSE -> It is used to execute a block of code if no exceptions are raised in the try block.
+
+try:
+    a = int(input("Enter a number: "))
+    print(a)
+
+except Exception as e:
+    print(e)
+
+else:
+    print("No exceptions were raised, so this block is executed.")
+
+# TRY WITH FINALLY -> It is used to execute a block of code regardless of whether an exception was raised or not.
+
+def main():
+
+    try:
+        a = int(input("Enter a number: "))
+        print(a)
+
+    except Exception as e:
+        print(e)  # Executed on error
+        return
+    
+    finally:
+        print("Hey I am inside finally block")  # Always executed
+
+main()
+
+
+
 
 
 
