@@ -57,13 +57,13 @@ print(merged_dict)
 
 # with the update operator
 
-with (
-open('file.txt') as f1,
-open('file2.txt') as f2
-):
+# with (
+# open('file.txt') as f1,
+# open('file2.txt') as f2
+# ):
 
-    content1 = f1.read()
-    content2 = f2.read()
+#     content1 = f1.read()
+#     content2 = f2.read()
 
 # EXCEPTION HANDLING -> It is the code that handles the exception is written in the except clause. It can be handled using a try statement.
 
