@@ -9,7 +9,6 @@ class employee:
 
 # Object -> t is an instantiation of a class. When class is defined, a template (info) is defined. Memory is allocated only after object instantiation.
 
-
 tushar = employee() # Here tushar is instance attribute, and the class employee in allocated in it
 print(f"Employee Name: {tushar.name}, Job Role: {tushar.designation}, Salary: {tushar.salary}") 
 
