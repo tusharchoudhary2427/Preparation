@@ -5,5 +5,3 @@ for i in range(1,101):
     sum = sum + i
     print(i)
 
-def class:
-    arr = ([])
