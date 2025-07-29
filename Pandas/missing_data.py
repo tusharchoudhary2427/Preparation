@@ -13,3 +13,9 @@ print(df)
 print(df.isnull())
 
 print(df.isnull().sum())
+
+# dropping a missing data
+
+df.dropna(inplace = True)
+print(df)
+
