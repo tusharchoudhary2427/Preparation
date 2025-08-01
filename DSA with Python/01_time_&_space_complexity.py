@@ -39,4 +39,27 @@ else:
 
 for i in range (1, n+1):
     for j in range(1, n+1):
-        print(j)
+        print()   # time complexity of this will be O(N^2)
+
+# example 2 -> find the time complexity
+
+for i in range (1, n+1):
+    for j in range(1, i+1):
+        print() # time complexity of this becomes n(n+1)/2, and after futher simplfying it, it will becomes n^2, so this will become O(n^2).
+
+
+'''Space Complexity -> It is the memory space required by an algorithm until it executes completely.  Space Complexity = Auxiliary Space + Input Space'''
+# Auxiliary space -> The extra space used to solve the problem.
+# Input space -> The space used to store the input and solving the problem.
+
+# example -> add 3 numbers and then print there total
+
+a = 45
+b = 34
+c = 55
+
+total = a+b+c
+print(total)   # here input space is where we stored the values of a,b,c and the auxiliary space is that where we stored total sum of a,b and c
+
+
+
